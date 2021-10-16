@@ -1,2 +1,17 @@
 1. A - Least Square error
-2. 
+2. A - Linear Regression is sensitive to outliers
+3. B - Negative
+4. B - Correlation
+5. C 
+6. D
+7. D
+8. D
+9. A
+10. A
+11. B
+12. A,B,D
+13. This type of regression is used to reduce overfitting of the machinea learning model.
+This works by adding an additional weight to the error function of the model. It controls the variabilities of the function so coefficients dont take intense values.
+
+14. Ridge Regression (L2), Lasso Regression(L1) and Elastic-net 
+15. An error term is basically a value that tells us how different is the predicted value from the actual value.
