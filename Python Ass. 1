@@ -1,0 +1,62 @@
+1.C
+2.B
+3.C
+4.D
+5.B
+6.B
+7.A
+8.C
+9.B,C
+10.A,B
+11.
+findfactorial = 10
+num = int(input("Enter a number: "))
+x = 1
+if num < 0:
+   print("Sorry, factorial non-existent for negative numbers")
+elif num == 0:
+   print("The factorial of 0 = 1")
+else:
+   for i in range(1,findfactorial + 1):
+       x = x*i
+   print("The factorial of",findfactorial,"is",x)
+   
+12. 
+number = int(input("Enter number: "))
+if number > 1:
+    for i in range(2, number):
+        if (number % i) == 0:
+            print(number, "is NOT a prime number")
+            break
+    else:
+        print(number, "is a PRIME number")
+elif number == 0 or 1:
+    print(number, "is a neither prime NOR composite number")
+else:
+    print(number, "is NOT a prime number it is a COMPOSITE number")
+
+13. 
+string=raw_input("Enter a word:")
+if(string==string[::-1]):
+      print("This word is a palindrome")
+else:
+      print("The word isn't a palindrome")
+14. 
+from math import sqrt
+a = float(input("side1: "))
+b = float(input("side2: "))
+c = sqrt(side1**2 + side2**2)
+print("The length of the hypoteneuse is:", c )
+
+15. 
+string=input("Enter the string: ")
+str1=list(string)
+strlist=[]
+for j in str1:
+    if j not in strlist:
+       strlist.append(j)
+       count=0
+       for i in range(len(str1)):
+         if j==str1[i]:
+           count+=1
+       print("{},{}".format(j,count))
